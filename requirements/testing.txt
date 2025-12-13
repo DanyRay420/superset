@@ -32,7 +32,7 @@ exceptiongroup==1.1.1
     # via pytest
 flask-testing==0.8.1
     # via -r requirements/testing.in
-fonttools==4.39.4
+fonttools==4.61.0
     # via matplotlib
 freezegun==1.2.2
     # via -r requirements/testing.in
@@ -165,3 +165,4 @@ websocket-client==1.5.1
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
